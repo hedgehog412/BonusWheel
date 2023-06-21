@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0E19661DFDED445482842FEF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86336575634341598BCDAE76 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FD95E8FA776D6C702F27085C /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B9F40A460EEA46CBA5BF3732 /* PBXTargetDependency */,
+				7FAA0E7CF549447CB55C9993 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		12BFE13F1523486ABD713A43 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D99F114045364C4586AA1ECF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C225677FA18AC41AA980C962 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		20025D604B61434C9EA4A387 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 713C0C7CB0954C4190741339 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		A037E703AA794A3FA026E744 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = A4A0ACAD0A1D43A28FE86F17 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		D6D97982E60F42B4BB4702D5 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5B01A031B5594006B6F64C75 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0319ECFD75D34D3C984CCB97 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9DE4D70005624CDB93158813 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EFB6031342494E619AF87612 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FE229BD3A1264A3BB3D75F28 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		45CB17797A304A799FED6C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6567A315C3249B395CE4F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BFE13F1523486ABD713A43;
+			remoteInfo = ZERO_CHECK;
+		};
+		77068B18D6FB447B8950374D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6567A315C3249B395CE4F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BFE13F1523486ABD713A43;
+			remoteInfo = ZERO_CHECK;
+		};
+		951CA2F678FB4650A4EEF523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6567A315C3249B395CE4F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AED1EF3B27F41889C554E0F;
+			remoteInfo = ext_convertUTF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5267F9FF9C4343B7A7480F /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B01A031B5594006B6F64C75 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		713C0C7CB0954C4190741339 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		A4A0ACAD0A1D43A28FE86F17 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		CFEE2579F8DD4F15B1BA0CFC /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5B43A2BA8149FAAA2A133B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0917E9647D894AF0A286D295 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CA5409206F9C46FFB8825E76 /* ext_convertUTF */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		41AEDDCB851842EBA9A74164 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				66BB8D1A0DE24F86AED432C2 /* CMake Rules */,
+				4D5267F9FF9C4343B7A7480F /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5733BB1AAD8F49F7BFAA7872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BB8D1A0DE24F86AED432C2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		960FADEE953B48289D6C6C57 = {
+			isa = PBXGroup;
+			children = (
+				0917E9647D894AF0A286D295 /* External */,
+				41AEDDCB851842EBA9A74164 /* ALL_BUILD */,
+				E2FA230E50F54C8E912B2F4A /* Products */,
+				5733BB1AAD8F49F7BFAA7872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5409206F9C46FFB8825E76 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				CC2BFE8235814FAA9E5E52D5 /* Source Files */,
+				5B01A031B5594006B6F64C75 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		CC2BFE8235814FAA9E5E52D5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0ACAD0A1D43A28FE86F17 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				713C0C7CB0954C4190741339 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E2FA230E50F54C8E912B2F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE2579F8DD4F15B1BA0CFC /* ext_convertUTF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AED1EF3B27F41889C554E0F /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451C25B961AA435A81BE6CC6 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				18A852668CEE4E389ACB8A9F /* Sources */,
+				1C5B43A2BA8149FAAA2A133B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE70A45DF1004C91A1D072FC /* PBXTargetDependency */,
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = CFEE2579F8DD4F15B1BA0CFC /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6567A315C3249B395CE4F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 8FB7825506864FE7968EAF17 /* Build configuration list for PBXProject "convertUTF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9DE4D70005624CDB93158813 /* Debug */,
+				0319ECFD75D34D3C984CCB97 /* Release */,
+				FE229BD3A1264A3BB3D75F28 /* MinSizeRel */,
+				EFB6031342494E619AF87612 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 960FADEE953B48289D6C6C57;
+			projectDirPath = /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF;
+			projectRoot = "";
+			targets = (
+				0E19661DFDED445482842FEF /* ALL_BUILD */,
+				12BFE13F1523486ABD713A43 /* ZERO_CHECK */,
+				6AED1EF3B27F41889C554E0F /* ext_convertUTF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C225677FA18AC41AA980C962 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FD95E8FA776D6C702F27085C /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A852668CEE4E389ACB8A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037E703AA794A3FA026E744 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				20025D604B61434C9EA4A387 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAA0E7CF549447CB55C9993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BFE13F1523486ABD713A43 /* ZERO_CHECK */;
+			targetProxy = 45CB17797A304A799FED6C20 /* PBXContainerItemProxy */;
+		};
+		B9F40A460EEA46CBA5BF3732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AED1EF3B27F41889C554E0F /* ext_convertUTF */;
+			targetProxy = 951CA2F678FB4650A4EEF523 /* PBXContainerItemProxy */;
+		};
+		FE70A45DF1004C91A1D072FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BFE13F1523486ABD713A43 /* ZERO_CHECK */;
+			targetProxy = 77068B18D6FB447B8950374D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0488CC64A7574047905C9431 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = MinSizeRel;
+		};
+		13A8FE1D47254F5FAD8D7164 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1ED0EB5B64CB4215ADC90FB8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1F8FA895EB9A427188CF287E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		21309D3D48524AC5BA48FED5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		34D731EABCAB4C069350FF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		38D2BB39209F4B509F5E35DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39C5EED52A81461A87EF6BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		45576D9B73A24A9E9FAB17B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		57476EE5240C42EEB1F4570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = Debug;
+		};
+		6F23462CE6374CCAB7D9D301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		79B85147605B4F94A56D645A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7C7BB5C03EA3424EA9950544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = Release;
+		};
+		D5DA92B95F70496696551F86 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DBD6B5D03A4D44A98A71E474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DC607AB9E8D843AD8CE97598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451C25B961AA435A81BE6CC6 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D731EABCAB4C069350FF87 /* Debug */,
+				39C5EED52A81461A87EF6BB2 /* Release */,
+				D5DA92B95F70496696551F86 /* MinSizeRel */,
+				13A8FE1D47254F5FAD8D7164 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86336575634341598BCDAE76 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD6B5D03A4D44A98A71E474 /* Debug */,
+				79B85147605B4F94A56D645A /* Release */,
+				45576D9B73A24A9E9FAB17B2 /* MinSizeRel */,
+				21309D3D48524AC5BA48FED5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FB7825506864FE7968EAF17 /* Build configuration list for PBXProject "convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57476EE5240C42EEB1F4570E /* Debug */,
+				7C7BB5C03EA3424EA9950544 /* Release */,
+				0488CC64A7574047905C9431 /* MinSizeRel */,
+				1F8FA895EB9A427188CF287E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D99F114045364C4586AA1ECF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F23462CE6374CCAB7D9D301 /* Debug */,
+				DC607AB9E8D843AD8CE97598 /* Release */,
+				1ED0EB5B64CB4215ADC90FB8 /* MinSizeRel */,
+				38D2BB39209F4B509F5E35DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6567A315C3249B395CE4F00 /* Project object */;
+}

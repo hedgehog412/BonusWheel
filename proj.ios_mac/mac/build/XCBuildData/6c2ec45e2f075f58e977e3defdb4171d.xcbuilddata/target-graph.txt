@@ -1,0 +1,49 @@
+Target dependency graph (14 targets)
+ext_recast in CocosTest, no dependencies
+ext_tinyxml2 in CocosTest, no dependencies
+ext_xxhash in CocosTest, no dependencies
+ext_xxtea in CocosTest, no dependencies
+ext_clipper in CocosTest, no dependencies
+ext_edtaa3func in CocosTest, no dependencies
+ext_convertUTF in CocosTest, no dependencies
+ext_poly2tri in CocosTest, no dependencies
+ext_md5 in CocosTest, no dependencies
+ext_unzip in CocosTest, no dependencies
+external in CocosTest, depends on:
+ext_recast in CocosTest (explicit)
+ext_tinyxml2 in CocosTest (explicit)
+ext_xxhash in CocosTest (explicit)
+ext_xxtea in CocosTest (explicit)
+ext_clipper in CocosTest (explicit)
+ext_edtaa3func in CocosTest (explicit)
+ext_convertUTF in CocosTest (explicit)
+ext_poly2tri in CocosTest (explicit)
+ext_md5 in CocosTest (explicit)
+ext_unzip in CocosTest (explicit)
+cocos2d in CocosTest, depends on:
+external in CocosTest (explicit)
+ext_recast in CocosTest (explicit)
+ext_tinyxml2 in CocosTest (explicit)
+ext_xxhash in CocosTest (explicit)
+ext_xxtea in CocosTest (explicit)
+ext_clipper in CocosTest (explicit)
+ext_edtaa3func in CocosTest (explicit)
+ext_convertUTF in CocosTest (explicit)
+ext_poly2tri in CocosTest (explicit)
+ext_md5 in CocosTest (explicit)
+ext_unzip in CocosTest (explicit)
+ZERO_CHECK in CocosTest, no dependencies
+CocosTest in CocosTest, depends on:
+cocos2d in CocosTest (explicit)
+external in CocosTest (explicit)
+ext_recast in CocosTest (explicit)
+ext_tinyxml2 in CocosTest (explicit)
+ext_xxhash in CocosTest (explicit)
+ext_xxtea in CocosTest (explicit)
+ext_clipper in CocosTest (explicit)
+ext_edtaa3func in CocosTest (explicit)
+ext_convertUTF in CocosTest (explicit)
+ext_poly2tri in CocosTest (explicit)
+ext_md5 in CocosTest (explicit)
+ext_unzip in CocosTest (explicit)
+ZERO_CHECK in CocosTest (explicit)

@@ -1,0 +1,98 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aac14cc61921305feec4de7a76e25f8904"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa79fee213fb724ac18b6c284746c997d5"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aacbc392398acf37c21ce30a04be3b199b"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aaad9388b50dfdcbf09a41f551b8e61f5c"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa327c166e3b646509fbaedecc981bfc76"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa9cfb15474b8f68c3c325ee9fe54e9947"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa0cc18f96723fe0bc7aa0f5a049720fbf"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa90c0dd2dc4bbeb55b3b7c3d7b91c4e32"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aab5793954f52c42d143659bc789601f77"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aac8e098ca80045d3f666cd9667e11f1bf"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa4c132519c1adf76203ed91eeaa1b67fb"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aaaec8688ce87f65864f6e90f94dee4173"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa718898925953dfeed45f4e2e0f75f2f1"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa668104ae75135ca034f84cc4b2d8ee5b"
+    },
+    {
+      "guid" : "5199b9b14e015c026b7c3f5a59d6b5aa6ce7d4d574c4833e5d2df012d6498e9f"
+    }
+  ],
+  "containerPath" : "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/CocosTest.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jyunjeon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jyunjeon/Library/Developer/Xcode/DerivedData/CocosTest-hdftrwafzssmsjczxwbtrelsnrqp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jyunjeon/Library/Developer/Xcode/DerivedData/CocosTest-hdftrwafzssmsjczxwbtrelsnrqp/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

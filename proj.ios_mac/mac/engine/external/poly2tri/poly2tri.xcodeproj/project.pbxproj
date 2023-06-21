@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0E19661DFDED445482842FEF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EF2C3FDDF14449F6AC1B858E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B9422E78D854D14CB1B522A5 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				5E021ED7211446699942F69D /* PBXTargetDependency */,
+				0A4A6519B7834EC19A2E3BD6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		12BFE13F1523486ABD713A43 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9ACED056F2D4DC4B4A51164 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2562F1A9C7B93AC863293C81 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13F3641C2C99400381AEA663 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 86C87260AC914D2EB523A1D5 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		1BC0740773C84838AA598721 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 7229FC4BD2FD4CDEA2F136A3 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		5338989B818C41509FE10739 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 804CB259D20D46BF911D2530 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		9632665651374EA183A52F9E /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3408F2BDA342482F8C49C569 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		BB6FFE48C8464EC3810C7E4B /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 93E7DA0F13BF43FE8E731D9A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/common/shapes.cc */; };
+		D687F61ED7E74484AAE1E29A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 4024762863BF4ADEA7244C5A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0D2CA5A726BE4CCFA0226B1C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		36C1B2C165B1401AB203EB86 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		998D76A113354211BAA67276 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BA2E5456DF37406D9FE1FC8F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		44ADC378A7E4478CBC20F743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA93A7985041D2874D88F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BFE13F1523486ABD713A43;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D4270B7FFF64E79A88F8A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA93A7985041D2874D88F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD447FD4F9944C4979B40CF;
+			remoteInfo = ext_poly2tri;
+		};
+		F085B9F91C3741A7A25EBE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA93A7985041D2874D88F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BFE13F1523486ABD713A43;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153CF9F557B544408B35752B /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3408F2BDA342482F8C49C569 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4024762863BF4ADEA7244C5A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		7229FC4BD2FD4CDEA2F136A3 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		804CB259D20D46BF911D2530 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		86C87260AC914D2EB523A1D5 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		93E7DA0F13BF43FE8E731D9A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		C6615F04D4D744EF9D3FBBE2 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84D3B168F0548F4A9CBF101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C4813F3F044CCC9EC2638E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E7DA0F13BF43FE8E731D9A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/common/shapes.cc */,
+				7229FC4BD2FD4CDEA2F136A3 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				4024762863BF4ADEA7244C5A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				86C87260AC914D2EB523A1D5 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				804CB259D20D46BF911D2530 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6CEC64207B8F4469BAD5CBB4 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				C11355A91E7341C0A72661B7 /* ext_poly2tri */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		77EED46E1CA149D385AAA2CE = {
+			isa = PBXGroup;
+			children = (
+				6CEC64207B8F4469BAD5CBB4 /* External */,
+				BD755E5E4F154CEB9F728623 /* ALL_BUILD */,
+				80F89B86CB954B2E8C5F27EB /* Products */,
+				F2D9340B36A44369B7AD5422 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80F89B86CB954B2E8C5F27EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153CF9F557B544408B35752B /* ext_poly2tri */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E379C3FB9BC4D0B8E6F7179 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BD755E5E4F154CEB9F728623 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9E379C3FB9BC4D0B8E6F7179 /* CMake Rules */,
+				C6615F04D4D744EF9D3FBBE2 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C11355A91E7341C0A72661B7 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				15C4813F3F044CCC9EC2638E /* Source Files */,
+				3408F2BDA342482F8C49C569 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		F2D9340B36A44369B7AD5422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD447FD4F9944C4979B40CF /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C7FA7FA9B64D4C8286DBEF /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				8B31B1D280684F149F8DB23C /* Sources */,
+				C84D3B168F0548F4A9CBF101 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E233712B30A453F9C003D9D /* PBXTargetDependency */,
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 153CF9F557B544408B35752B /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECA93A7985041D2874D88F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 76F0EF3B2A3E41B2871C5B15 /* Build configuration list for PBXProject "poly2tri" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BA2E5456DF37406D9FE1FC8F /* Debug */,
+				998D76A113354211BAA67276 /* Release */,
+				0D2CA5A726BE4CCFA0226B1C /* MinSizeRel */,
+				36C1B2C165B1401AB203EB86 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 77EED46E1CA149D385AAA2CE;
+			projectDirPath = /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri;
+			projectRoot = "";
+			targets = (
+				0E19661DFDED445482842FEF /* ALL_BUILD */,
+				12BFE13F1523486ABD713A43 /* ZERO_CHECK */,
+				2BD447FD4F9944C4979B40CF /* ext_poly2tri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2562F1A9C7B93AC863293C81 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  make -f /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B9422E78D854D14CB1B522A5 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B31B1D280684F149F8DB23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6FFE48C8464EC3810C7E4B /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/common/shapes.cc */,
+				1BC0740773C84838AA598721 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				D687F61ED7E74484AAE1E29A /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				13F3641C2C99400381AEA663 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				5338989B818C41509FE10739 /* /Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4A6519B7834EC19A2E3BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD447FD4F9944C4979B40CF /* ext_poly2tri */;
+			targetProxy = 6D4270B7FFF64E79A88F8A13 /* PBXContainerItemProxy */;
+		};
+		5E021ED7211446699942F69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BFE13F1523486ABD713A43 /* ZERO_CHECK */;
+			targetProxy = 44ADC378A7E4478CBC20F743 /* PBXContainerItemProxy */;
+		};
+		7E233712B30A453F9C003D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BFE13F1523486ABD713A43 /* ZERO_CHECK */;
+			targetProxy = F085B9F91C3741A7A25EBE7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B648E2BF6E42D7AC9A96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		154BA600EB8447F79C985C59 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1A98496EC7D64D539B18114F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1E801CBCFAFA4767B604D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2CED225DDC7444EBA40543E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = Debug;
+		};
+		33A41D56A9FB4030877C047C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		44CFE37CABDF4442A3E627DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A9CB638A048456E8CBA9BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		65142B595EBB4ABFB4BA3CC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B7A58391092405D9A268F4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7DAE40D06D604D36AF7F59AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = Release;
+		};
+		A79461D615024C5A9A4B6BE3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = MinSizeRel;
+		};
+		BBD64A863078452EBD165939 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D24F14766DE34FCE951FF415 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E69827A178064ECCBD1F2F3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		EFB1DBFF107441A78FE00BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jyunjeon/Desktop/CocosTest/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/jyunjeon/Desktop/CocosTest/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F0EF3B2A3E41B2871C5B15 /* Build configuration list for PBXProject "poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CED225DDC7444EBA40543E7 /* Debug */,
+				7DAE40D06D604D36AF7F59AA /* Release */,
+				A79461D615024C5A9A4B6BE3 /* MinSizeRel */,
+				E69827A178064ECCBD1F2F3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3C7FA7FA9B64D4C8286DBEF /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A41D56A9FB4030877C047C /* Debug */,
+				EFB1DBFF107441A78FE00BC0 /* Release */,
+				7B7A58391092405D9A268F4F /* MinSizeRel */,
+				154BA600EB8447F79C985C59 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9ACED056F2D4DC4B4A51164 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A98496EC7D64D539B18114F /* Debug */,
+				11B648E2BF6E42D7AC9A96EE /* Release */,
+				D24F14766DE34FCE951FF415 /* MinSizeRel */,
+				44CFE37CABDF4442A3E627DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF2C3FDDF14449F6AC1B858E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9CB638A048456E8CBA9BB9 /* Debug */,
+				1E801CBCFAFA4767B604D3AC /* Release */,
+				BBD64A863078452EBD165939 /* MinSizeRel */,
+				65142B595EBB4ABFB4BA3CC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECA93A7985041D2874D88F1 /* Project object */;
+}
